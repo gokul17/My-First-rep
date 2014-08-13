@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test2]">
+  <listeners>
+    <listener class-name="com.sample.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="test2_1(failed)">
+    <classes>
+      <class name="com.sample.test2.Test2_1">
+        <methods>
+          <include name="test1in2"/>
+        </methods>
+      </class> <!-- com.sample.test2.Test2_1 -->
+      <class name="com.sample.test2.Test2_2">
+        <methods>
+          <include name="checksuiteskip"/>
+        </methods>
+      </class> <!-- com.sample.test2.Test2_2 -->
+    </classes>
+  </test> <!-- test2_1(failed) -->
+  <test name="test2_2(failed)">
+    <classes>
+      <class name="com.sample.test2.Test2_2">
+        <methods>
+          <include name="test2in2"/>
+          <include name="checksuiteskip"/>
+        </methods>
+      </class> <!-- com.sample.test2.Test2_2 -->
+    </classes>
+  </test> <!-- test2_2(failed) -->
+</suite> <!-- Failed suite [test2] -->

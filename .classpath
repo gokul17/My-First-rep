@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/mail.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/testng-xslt-maven-plugin-test-0.0.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/testng.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/commons-lang3-3.2.1.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/cssparser-0.9.11.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/guava-15.0.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/htmlunit-2.14.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/htmlunit-core-js-2.14.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/httpclient-4.3.2.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/httpcore-4.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/httpmime-4.3.2.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/jetty-websocket-8.1.8.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/json-20080701.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/nekohtml-1.9.20.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/operadriver-1.5.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/phantomjsdriver-1.1.0.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/selenium-java-2.42.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://selenium.googlecode.com/git/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/selenium-java-2.42.2-srcs.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/Core_Data_Driven_Framework_Testng/Jars/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

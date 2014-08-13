@@ -1,0 +1,37 @@
+<suite name="test1">
+  <test name="test1_1">
+      <classes>
+          <class name="com.sample.test1.Test1_1"></class>
+      </classes>
+  </test>
+  <test name="brand_search">
+      <classes>
+          <class name="com.sample.test1.brandsearch"></class>
+      </classes>
+  </test>
+  <test name="pricefilter">
+      <classes>
+          <class name="com.sample.test1.pricefilter"></class>
+      </classes>
+  </test>
+  <test name="pricefilter unselection">
+      <classes>
+          <class name="com.sample.test1.pricefilter_unselection"></class>
+      </classes>
+  </test>
+  <test name="brand_selection">
+      <classes>
+          <class name="com.sample.test1.brandfilter"></class>
+      </classes>
+  </test>
+  <test name="brand_unselection">
+      <classes>
+          <class name="com.sample.test1.brand_unselection"></class>
+      </classes>
+  </test>
+  <test name="Mixedfilter">
+      <classes>
+          <class name="com.sample.test1.Mixedfilter"></class>
+      </classes>
+  </test>
+</suite>

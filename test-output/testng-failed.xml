@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]">
+  <listeners>
+    <listener class-name="com.sample.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="brand_search(failed)">
+    <classes>
+      <class name="com.sample.test1.pricefilter_unselection">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.pricefilter_unselection -->
+      <class name="com.sample.test1.brandsearch">
+        <methods>
+          <include name="setresultforData"/>
+          <include name="test2in1" invocation-numbers="0 1 2 3 4"/>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brandsearch -->
+      <class name="com.sample.test1.pricefilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.pricefilter -->
+      <class name="com.sample.test1.Mixedfilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+          <include name="checksuiteskip"/>
+        </methods>
+      </class> <!-- com.sample.test1.Mixedfilter -->
+      <class name="com.sample.test1.Test1_1">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.Test1_1 -->
+      <class name="com.sample.test1.brand_unselection">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brand_unselection -->
+      <class name="com.sample.test1.brandfilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brandfilter -->
+    </classes>
+  </test> <!-- brand_search(failed) -->
+  <test name="pricefilter(failed)">
+    <classes>
+      <class name="com.sample.test1.pricefilter_unselection">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.pricefilter_unselection -->
+      <class name="com.sample.test1.brandsearch">
+        <methods>
+          <include name="setresultforData"/>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brandsearch -->
+      <class name="com.sample.test1.Mixedfilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+          <include name="checksuiteskip"/>
+        </methods>
+      </class> <!-- com.sample.test1.Mixedfilter -->
+      <class name="com.sample.test1.pricefilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+          <include name="price_filter"/>
+        </methods>
+      </class> <!-- com.sample.test1.pricefilter -->
+      <class name="com.sample.test1.Test1_1">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.Test1_1 -->
+      <class name="com.sample.test1.brand_unselection">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brand_unselection -->
+      <class name="com.sample.test1.brandfilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brandfilter -->
+    </classes>
+  </test> <!-- pricefilter(failed) -->
+  <test name="pricefilter unselection(failed)">
+    <classes>
+      <class name="com.sample.test1.brandsearch">
+        <methods>
+          <include name="setresultforData"/>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brandsearch -->
+      <class name="com.sample.test1.pricefilter_unselection">
+        <methods>
+          <include name="checktestcaserunnable"/>
+          <include name="price_filter_unselection"/>
+        </methods>
+      </class> <!-- com.sample.test1.pricefilter_unselection -->
+      <class name="com.sample.test1.pricefilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.pricefilter -->
+      <class name="com.sample.test1.Mixedfilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+          <include name="checksuiteskip"/>
+        </methods>
+      </class> <!-- com.sample.test1.Mixedfilter -->
+      <class name="com.sample.test1.Test1_1">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.Test1_1 -->
+      <class name="com.sample.test1.brand_unselection">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brand_unselection -->
+      <class name="com.sample.test1.brandfilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brandfilter -->
+    </classes>
+  </test> <!-- pricefilter unselection(failed) -->
+  <test name="Mixedfilter(failed)">
+    <classes>
+      <class name="com.sample.test1.pricefilter_unselection">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.pricefilter_unselection -->
+      <class name="com.sample.test1.brandsearch">
+        <methods>
+          <include name="setresultforData"/>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brandsearch -->
+      <class name="com.sample.test1.pricefilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.pricefilter -->
+      <class name="com.sample.test1.Mixedfilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+          <include name="checksuiteskip"/>
+          <include name="mixed_filter"/>
+        </methods>
+      </class> <!-- com.sample.test1.Mixedfilter -->
+      <class name="com.sample.test1.Test1_1">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.Test1_1 -->
+      <class name="com.sample.test1.brand_unselection">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brand_unselection -->
+      <class name="com.sample.test1.brandfilter">
+        <methods>
+          <include name="checktestcaserunnable"/>
+        </methods>
+      </class> <!-- com.sample.test1.brandfilter -->
+    </classes>
+  </test> <!-- Mixedfilter(failed) -->
+</suite> <!-- Failed suite [test1] -->

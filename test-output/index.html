@@ -1,0 +1,1674 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-test1">
+              <span class="suite-name border-failed">test1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-test1">
+                    <span>G:\workspace\Core_Data_Driven_Framework_Testng\Test1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-test1">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-test1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-test1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-test1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-test1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-test1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 8 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-test1" class="hide-methods failed suite-test1"> (hide)</a> <!-- hide-methods failed suite-test1 -->
+                      <a href="#" panel-name="suite-test1" class="show-methods failed suite-test1"> (show)</a> <!-- show-methods failed suite-test1 -->
+                    </span>
+                    <div class="method-list-content failed suite-test1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.Mixedfilter" hash-for-method="mixed_filter">mixed_filter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.pricefilter" hash-for-method="price_filter">price_filter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.pricefilter_unselection" hash-for-method="price_filter_unselection">price_filter_unselection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.brandsearch" hash-for-method="test2in1(abc@123)">test2in1(abc@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.brandsearch" hash-for-method="test2in1(P)">test2in1(P)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.brandsearch" hash-for-method="test2in1(abc)">test2in1(abc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.brandsearch" hash-for-method="test2in1(Peter)">test2in1(Peter)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.brandsearch" hash-for-method="test2in1(1.0)">test2in1(1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-test1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-test1" class="hide-methods passed suite-test1"> (hide)</a> <!-- hide-methods passed suite-test1 -->
+                      <a href="#" panel-name="suite-test1" class="show-methods passed suite-test1"> (show)</a> <!-- show-methods passed suite-test1 -->
+                    </span>
+                    <div class="method-list-content passed suite-test1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.brandfilter" hash-for-method="brand_filter">brand_filter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.brand_unselection" hash-for-method="brand_unselection">brand_unselection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test1" title="com.sample.test1.Test1_1" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-test1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-test2">
+              <span class="suite-name border-passed">test2</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-test2">
+                    <span>G:\workspace\Core_Data_Driven_Framework_Testng\Test2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-test2">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-test2">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-test2">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-test2">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-test2">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-test2">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-test2" class="hide-methods passed suite-test2"> (hide)</a> <!-- hide-methods passed suite-test2 -->
+                      <a href="#" panel-name="suite-test2" class="show-methods passed suite-test2"> (show)</a> <!-- show-methods passed suite-test2 -->
+                    </span>
+                    <div class="method-list-content passed suite-test2">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test2" title="com.sample.test2.Test2_1" hash-for-method="test1in2(Dummy2_1_1_1, Dummy2_1_1_2, Dummy2_1_1_3)">test1in2(Dummy2_1_1_1, Dummy2_1_1_2, Dummy2_1_1_3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test2" title="com.sample.test2.Test2_1" hash-for-method="test1in2(Dummy2_1_3_1, Dummy2_1_3_2, Dummy2_1_3_3)">test1in2(Dummy2_1_3_1, Dummy2_1_3_2, Dummy2_1_3_3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test2" title="com.sample.test2.Test2_1" hash-for-method="test1in2(Dummy2_1_2_1, Dummy2_1_2_2, Dummy2_1_2_3)">test1in2(Dummy2_1_2_1, Dummy2_1_2_2, Dummy2_1_2_3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test2" title="com.sample.test2.Test2_2" hash-for-method="test2in2(Dummy2_2_2_1, Dummy2_2_2_2)">test2in2(Dummy2_2_2_1, Dummy2_2_2_2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test2" title="com.sample.test2.Test2_2" hash-for-method="test2in2(Dummy2_2_3_1, Dummy2_2_3_2)">test2in2(Dummy2_2_3_1, Dummy2_2_3_2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test2" title="com.sample.test2.Test2_2" hash-for-method="test2in2(Dummy2_2_1_1, Dummy2_2_1_2)">test2in2(Dummy2_2_1_1, Dummy2_2_1_2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-test2 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-test1" class="panel test1">
+          <div class="suite-test1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sample.test1.pricefilter_unselection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="price_filter_unselection">
+                  </a> <!-- price_filter_unselection -->
+                  <span class="method-name">price_filter_unselection</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;selectedFilters&apos;]/div/a/span&quot;}
+Command duration or timeout: 20.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
+System info: host: &apos;Gokul-VAIO&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
+Session ID: e350c285-331f-4345-bd8e-f602a1c6c8f8
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at com.sample.base.TestBase.getobject(TestBase.java:104)
+	at com.sample.test1.pricefilter_unselection.price_filter_unselection(pricefilter_unselection.java:43)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;selectedFilters&apos;]/div/a/span&quot;}
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
+System info: host: &apos;Gokul-VAIO&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Gokul/AppData/Local/Temp/anonymous843220213634677613webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470:133)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Gokul/AppData/Local/Temp/anonymous843220213634677613webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:407:5)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test1-class-failed -->
+          <div class="suite-test1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sample.test1.brandsearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2in1(abc@123)">
+                  </a> <!-- test2in1(abc@123) -->
+                  <span class="method-name">test2in1</span>
+                  <span class="parameters">(abc@123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.sample.test1.brandsearch.test2in1(brandsearch.java:60)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2in1(P)">
+                  </a> <!-- test2in1(P) -->
+                  <span class="method-name">test2in1</span>
+                  <span class="parameters">(P)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.sample.test1.brandsearch.test2in1(brandsearch.java:60)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2in1(abc)">
+                  </a> <!-- test2in1(abc) -->
+                  <span class="method-name">test2in1</span>
+                  <span class="parameters">(abc)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.sample.test1.brandsearch.test2in1(brandsearch.java:60)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2in1(Peter)">
+                  </a> <!-- test2in1(Peter) -->
+                  <span class="method-name">test2in1</span>
+                  <span class="parameters">(Peter)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.sample.test1.brandsearch.test2in1(brandsearch.java:60)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2in1(1.0)">
+                  </a> <!-- test2in1(1.0) -->
+                  <span class="method-name">test2in1</span>
+                  <span class="parameters">(1.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.sample.test1.brandsearch.test2in1(brandsearch.java:60)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test1-class-failed -->
+          <div class="suite-test1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sample.test1.Mixedfilter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mixed_filter">
+                  </a> <!-- mixed_filter -->
+                  <span class="method-name">mixed_filter</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 20.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
+System info: host: &apos;Gokul-VAIO&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
+Session ID: e350c285-331f-4345-bd8e-f602a1c6c8f8
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:152)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy13.getText(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText(EventFiringWebDriver.java:381)
+	at com.sample.test1.Mixedfilter.mixed_filter(Mixedfilter.java:66)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
+System info: host: &apos;Gokul-VAIO&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:8180:5)
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/Gokul/AppData/Local/Temp/anonymous843220213634677613webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3)
+	at &lt;anonymous class&gt;.WebElement.getElementText(file:///C:/Users/Gokul/AppData/Local/Temp/anonymous843220213634677613webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10893:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Gokul/AppData/Local/Temp/anonymous843220213634677613webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:16)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Gokul/AppData/Local/Temp/anonymous843220213634677613webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:407:5)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test1-class-failed -->
+          <div class="suite-test1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sample.test1.pricefilter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="price_filter">
+                  </a> <!-- price_filter -->
+                  <span class="method-name">price_filter</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;price_range&apos;]/li[0]/a/span&quot;}
+Command duration or timeout: 20.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
+System info: host: &apos;Gokul-VAIO&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
+Session ID: e350c285-331f-4345-bd8e-f602a1c6c8f8
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at com.sample.test1.pricefilter.price_filter(pricefilter.java:43)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;price_range&apos;]/li[0]/a/span&quot;}
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
+System info: host: &apos;Gokul-VAIO&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Gokul/AppData/Local/Temp/anonymous843220213634677613webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470:133)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Gokul/AppData/Local/Temp/anonymous843220213634677613webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:407:5)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test1-class-failed -->
+          <div class="suite-test1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sample.test1.Test1_1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test1-class-passed -->
+          <div class="suite-test1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sample.test1.brand_unselection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="brand_unselection">
+                  </a> <!-- brand_unselection -->
+                  <span class="method-name">brand_unselection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test1-class-passed -->
+          <div class="suite-test1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sample.test1.brandfilter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="brand_filter">
+                  </a> <!-- brand_filter -->
+                  <span class="method-name">brand_filter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test1-class-passed -->
+        </div> <!-- panel test1 -->
+        <div panel-name="suite-My_test" class="panel My_test">
+        </div> <!-- panel My_test -->
+        <div panel-name="suite-test2" class="panel test2">
+          <div class="suite-test2-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sample.test2.Test2_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2in2(Dummy2_2_2_1, Dummy2_2_2_2)">
+                  </a> <!-- test2in2(Dummy2_2_2_1, Dummy2_2_2_2) -->
+                  <span class="method-name">test2in2</span>
+                  <span class="parameters">(Dummy2_2_2_1, Dummy2_2_2_2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2in2(Dummy2_2_3_1, Dummy2_2_3_2)">
+                  </a> <!-- test2in2(Dummy2_2_3_1, Dummy2_2_3_2) -->
+                  <span class="method-name">test2in2</span>
+                  <span class="parameters">(Dummy2_2_3_1, Dummy2_2_3_2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2in2(Dummy2_2_1_1, Dummy2_2_1_2)">
+                  </a> <!-- test2in2(Dummy2_2_1_1, Dummy2_2_1_2) -->
+                  <span class="method-name">test2in2</span>
+                  <span class="parameters">(Dummy2_2_1_1, Dummy2_2_1_2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test2-class-passed -->
+          <div class="suite-test2-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sample.test2.Test2_1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1in2(Dummy2_1_1_1, Dummy2_1_1_2, Dummy2_1_1_3)">
+                  </a> <!-- test1in2(Dummy2_1_1_1, Dummy2_1_1_2, Dummy2_1_1_3) -->
+                  <span class="method-name">test1in2</span>
+                  <span class="parameters">(Dummy2_1_1_1, Dummy2_1_1_2, Dummy2_1_1_3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1in2(Dummy2_1_3_1, Dummy2_1_3_2, Dummy2_1_3_3)">
+                  </a> <!-- test1in2(Dummy2_1_3_1, Dummy2_1_3_2, Dummy2_1_3_3) -->
+                  <span class="method-name">test1in2</span>
+                  <span class="parameters">(Dummy2_1_3_1, Dummy2_1_3_2, Dummy2_1_3_3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1in2(Dummy2_1_2_1, Dummy2_1_2_2, Dummy2_1_2_3)">
+                  </a> <!-- test1in2(Dummy2_1_2_1, Dummy2_1_2_2, Dummy2_1_2_3) -->
+                  <span class="method-name">test1in2</span>
+                  <span class="parameters">(Dummy2_1_2_1, Dummy2_1_2_2, Dummy2_1_2_3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test2-class-passed -->
+        </div> <!-- panel test2 -->
+        <div panel-name="test-xml-test1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\workspace\Core_Data_Driven_Framework_Testng\Test1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;test1&quot;&gt;
+  &lt;test name=&quot;test1_1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.test1.Test1_1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test1_1 --&gt;
+  &lt;test name=&quot;brand_search&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.test1.brandsearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- brand_search --&gt;
+  &lt;test name=&quot;pricefilter&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.test1.pricefilter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- pricefilter --&gt;
+  &lt;test name=&quot;pricefilter unselection&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.test1.pricefilter_unselection&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- pricefilter unselection --&gt;
+  &lt;test name=&quot;brand_selection&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.test1.brandfilter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- brand_selection --&gt;
+  &lt;test name=&quot;brand_unselection&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.test1.brand_unselection&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- brand_unselection --&gt;
+  &lt;test name=&quot;Mixedfilter&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.test1.Mixedfilter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mixedfilter --&gt;
+&lt;/suite&gt; &lt;!-- test1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-My_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\workspace\Core_Data_Driven_Framework_Testng\Testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;My test&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.sample.listener.TestsListenerAdapter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./Test1.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./Test2.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- My test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-test2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\workspace\Core_Data_Driven_Framework_Testng\Test2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;test2&quot;&gt;
+  &lt;test name=&quot;test2_1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.test2.Test2_1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test2_1 --&gt;
+  &lt;test name=&quot;test2_2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.test2.Test2_2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test2_2 --&gt;
+&lt;/suite&gt; &lt;!-- test2 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-test1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for test1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test1_1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">brand_search (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">pricefilter (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">pricefilter unselection (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">brand_selection (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">brand_unselection (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Mixedfilter (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-test2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for test2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test2_1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">test2_2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-test1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for test1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-test2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for test2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-test1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for test1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_test1');
+function tableData_test1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'mixed_filter')
+data.setCell(0, 2, 'com.sample.test1.Mixedfilter')
+data.setCell(0, 3, 54897);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'brand_unselection')
+data.setCell(1, 2, 'com.sample.test1.brand_unselection')
+data.setCell(1, 3, 27774);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test1')
+data.setCell(2, 2, 'com.sample.test1.Test1_1')
+data.setCell(2, 3, 23311);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'price_filter')
+data.setCell(3, 2, 'com.sample.test1.pricefilter')
+data.setCell(3, 3, 20223);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'price_filter_unselection')
+data.setCell(4, 2, 'com.sample.test1.pricefilter_unselection')
+data.setCell(4, 3, 20177);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'brand_filter')
+data.setCell(5, 2, 'com.sample.test1.brandfilter')
+data.setCell(5, 3, 15580);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test2in1')
+data.setCell(6, 2, 'com.sample.test1.brandsearch')
+data.setCell(6, 3, 3328);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test2in1')
+data.setCell(7, 2, 'com.sample.test1.brandsearch')
+data.setCell(7, 3, 675);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test2in1')
+data.setCell(8, 2, 'com.sample.test1.brandsearch')
+data.setCell(8, 3, 657);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test2in1')
+data.setCell(9, 2, 'com.sample.test1.brandsearch')
+data.setCell(9, 3, 651);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test2in1')
+data.setCell(10, 2, 'com.sample.test1.brandsearch')
+data.setCell(10, 3, 619);
+window.suiteTableData['test1']= { tableData: data, tableDiv: 'times-div-test1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-test1">
+              </div> <!-- times-div-test1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_test');
+function tableData_My_test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['My_test']= { tableData: data, tableDiv: 'times-div-My_test'}
+return data;
+}
+              </script>
+              <div id="times-div-My_test">
+              </div> <!-- times-div-My_test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-test2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for test2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_test2');
+function tableData_test2() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test1in2')
+data.setCell(0, 2, 'com.sample.test2.Test2_1')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test1in2')
+data.setCell(1, 2, 'com.sample.test2.Test2_1')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test2in2')
+data.setCell(2, 2, 'com.sample.test2.Test2_2')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test2in2')
+data.setCell(3, 2, 'com.sample.test2.Test2_2')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test1in2')
+data.setCell(4, 2, 'com.sample.test2.Test2_1')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test2in2')
+data.setCell(5, 2, 'com.sample.test2.Test2_2')
+data.setCell(5, 3, 0);
+window.suiteTableData['test2']= { tableData: data, tableDiv: 'times-div-test2'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 ms</span>
+              <div id="times-div-test2">
+              </div> <!-- times-div-test2 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-test1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for test1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-test2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for test2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-test1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-test2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-test1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.Mixedfilter</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checksuiteskip</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.Test1_1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">16535 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">16541 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.brandsearch</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">39988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(P)</span>
+                <span class="method-start">39993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">43321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">45296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(1.0)</span>
+                <span class="method-start">45300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">45951 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">46094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(abc)</span>
+                <span class="method-start">46098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">46718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">46933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(abc@123)</span>
+                <span class="method-start">46937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">47594 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">47739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(Peter)</span>
+                <span class="method-start">47743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">48418 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.pricefilter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">48709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">price_filter</span>
+                <span class="method-start">48711 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.pricefilter_unselection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">68999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">price_filter_unselection</span>
+                <span class="method-start">69001 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.brandfilter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">89206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brand_filter</span>
+                <span class="method-start">89208 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.brand_unselection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">104817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brand_unselection</span>
+                <span class="method-start">104819 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.Mixedfilter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">132606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mixed_filter</span>
+                <span class="method-start">132608 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test2.Test2_2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checksuiteskip</span>
+                <span class="method-start">187534 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test2.Test2_1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">187537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1in2(Dummy2_1_1_1, Dummy2_1_1_2, Dummy2_1_1_3)</span>
+                <span class="method-start">187539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">187540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">187767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1in2(Dummy2_1_2_1, Dummy2_1_2_2, Dummy2_1_2_3)</span>
+                <span class="method-start">187769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">187770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">187883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1in2(Dummy2_1_3_1, Dummy2_1_3_2, Dummy2_1_3_3)</span>
+                <span class="method-start">187886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">187887 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test2.Test2_2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">188260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2in2(Dummy2_2_1_1, Dummy2_2_1_2)</span>
+                <span class="method-start">188262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">188263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">188483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2in2(Dummy2_2_2_1, Dummy2_2_2_2)</span>
+                <span class="method-start">188485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">188486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">188647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2in2(Dummy2_2_3_1, Dummy2_2_3_2)</span>
+                <span class="method-start">188649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">188649 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.Mixedfilter</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checksuiteskip</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.Test1_1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">16535 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">16541 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.brandsearch</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">39988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(P)</span>
+                <span class="method-start">39993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">43321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">45296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(1.0)</span>
+                <span class="method-start">45300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">45951 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">46094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(abc)</span>
+                <span class="method-start">46098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">46718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">46933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(abc@123)</span>
+                <span class="method-start">46937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">47594 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">47739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(Peter)</span>
+                <span class="method-start">47743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">48418 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.pricefilter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">48709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">price_filter</span>
+                <span class="method-start">48711 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.pricefilter_unselection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">68999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">price_filter_unselection</span>
+                <span class="method-start">69001 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.brandfilter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">89206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brand_filter</span>
+                <span class="method-start">89208 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.brand_unselection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">104817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brand_unselection</span>
+                <span class="method-start">104819 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.Mixedfilter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">132606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mixed_filter</span>
+                <span class="method-start">132608 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test2.Test2_2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checksuiteskip</span>
+                <span class="method-start">187534 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test2.Test2_1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">187537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1in2(Dummy2_1_1_1, Dummy2_1_1_2, Dummy2_1_1_3)</span>
+                <span class="method-start">187539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">187540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">187767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1in2(Dummy2_1_2_1, Dummy2_1_2_2, Dummy2_1_2_3)</span>
+                <span class="method-start">187769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">187770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">187883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1in2(Dummy2_1_3_1, Dummy2_1_3_2, Dummy2_1_3_3)</span>
+                <span class="method-start">187886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">187887 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test2.Test2_2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">188260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2in2(Dummy2_2_1_1, Dummy2_2_1_2)</span>
+                <span class="method-start">188262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">188263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">188483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2in2(Dummy2_2_2_1, Dummy2_2_2_2)</span>
+                <span class="method-start">188485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">188486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">188647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2in2(Dummy2_2_3_1, Dummy2_2_3_2)</span>
+                <span class="method-start">188649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">188649 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-test2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.Mixedfilter</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checksuiteskip</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.Test1_1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">16535 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">16541 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.brandsearch</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">39988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(P)</span>
+                <span class="method-start">39993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">43321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">45296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(1.0)</span>
+                <span class="method-start">45300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">45951 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">46094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(abc)</span>
+                <span class="method-start">46098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">46718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">46933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(abc@123)</span>
+                <span class="method-start">46937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">47594 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">47739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2in1(Peter)</span>
+                <span class="method-start">47743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">48418 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.pricefilter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">48709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">price_filter</span>
+                <span class="method-start">48711 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.pricefilter_unselection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">68999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">price_filter_unselection</span>
+                <span class="method-start">69001 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.brandfilter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">89206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brand_filter</span>
+                <span class="method-start">89208 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.brand_unselection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">104817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brand_unselection</span>
+                <span class="method-start">104819 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test1.Mixedfilter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">132606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mixed_filter</span>
+                <span class="method-start">132608 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test2.Test2_2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checksuiteskip</span>
+                <span class="method-start">187534 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test2.Test2_1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">187537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1in2(Dummy2_1_1_1, Dummy2_1_1_2, Dummy2_1_1_3)</span>
+                <span class="method-start">187539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">187540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">187767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1in2(Dummy2_1_2_1, Dummy2_1_2_2, Dummy2_1_2_3)</span>
+                <span class="method-start">187769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">187770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">187883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1in2(Dummy2_1_3_1, Dummy2_1_3_2, Dummy2_1_3_3)</span>
+                <span class="method-start">187886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">187887 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test2.Test2_2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">188260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2in2(Dummy2_2_1_1, Dummy2_2_1_2)</span>
+                <span class="method-start">188262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">188263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">188483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2in2(Dummy2_2_2_1, Dummy2_2_2_2)</span>
+                <span class="method-start">188485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">188486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">checktestcaserunnable</span>
+                <span class="method-start">188647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2in2(Dummy2_2_3_1, Dummy2_2_3_2)</span>
+                <span class="method-start">188649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setresultforData</span>
+                <span class="method-start">188649 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,12 @@
+<suite name="test1">
+  <test name="test1_1">
+      <classes>
+          <class name="com.sample.test2.test2_1" />
+      </classes>
+  </test>
+  <test name="test1_2">
+      <classes>
+          <class name="com.sample.test2.test2_2" />
+      </classes>
+  </test>
+</suite>
